@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "APMIS_MOBILE",
+    "slug": "APMIS_MOBILE",
+    "version": "1.0.0",
+    "scheme": [
+      "apmismobile",
+      "com.googleusercontent.apps.176554484893-48gg0k5k5k21qc002soglji5h14ho9k5"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.apmis.app",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-web-browser",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "96ee97f9-231b-47e5-8009-2bfa3e47d507"
+      }
+    }
+  }
+}

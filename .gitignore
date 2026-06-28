@@ -1,0 +1,46 @@
+# ─── ESP32 / ESP-IDF ────────────────────────────────────────────────────────
+APMIS_ESP32/build/
+APMIS_ESP32/managed_components/
+APMIS_ESP32/.cache/
+APMIS_ESP32/dependencies.lock
+APMIS_ESP32/sdkconfig.old
+
+# ─── React Native / Expo ────────────────────────────────────────────────────
+APMIS_MOBILE/node_modules/
+APMIS_MOBILE/.expo/
+APMIS_MOBILE/dist/
+APMIS_MOBILE/build/
+APMIS_MOBILE/.env
+APMIS_MOBILE/.env.local
+APMIS_MOBILE/android/.gradle/
+APMIS_MOBILE/android/app/build/
+APMIS_MOBILE/android/local.properties
+APMIS_MOBILE/ios/Pods/
+APMIS_MOBILE/ios/build/
+APMIS_MOBILE/*.jks
+APMIS_MOBILE/*.keystore
+
+# ─── Server ─────────────────────────────────────────────────────────────────
+APMIS_SERVER/node_modules/
+APMIS_SERVER/dist/
+APMIS_SERVER/.env
+APMIS_SERVER/.env.local
+
+# ─── Firebase ───────────────────────────────────────────────────────────────
+**/serviceAccountKey.json
+**/firebase-adminsdk*.json
+.firebaserc
+firebase.json
+
+# ─── Project-local files ────────────────────────────────────────────────────
+BackupFiles/
+PROJECT_OVERVIEW.txt
+
+# ─── General ────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+*.log
+.vscode/
+.idea/
+*.orig
